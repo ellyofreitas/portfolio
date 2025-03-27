@@ -1,12 +1,11 @@
 import { Layers } from 'lucide-react'
+import { getGithubPinnedRepos } from '@/api-services/github/get-github-pinned-repos'
 import Heading from '@/components/Heading'
 import ProjectCards from '@/components/ProjectsCard'
 import { Badge } from '@/components/ui/badge'
-import { getGithubPinnedRepos } from '@/api-services/github/get-github-pinned-repos'
-
 
 export default async function ProjectsPage() {
-  const repos  = await getGithubPinnedRepos()
+  const repos = await getGithubPinnedRepos()
   return (
     <div className='h-full w-full relative flex flex-col items-start gap-5 overflow-hidden'>
       <Badge variant='secondary' className='gap-1.5 py-1'>

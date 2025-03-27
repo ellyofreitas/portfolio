@@ -1,10 +1,10 @@
 import { BadgeCheck } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { getCredlyBadges } from '@/api-services/credly/get-credly-badges'
 import FramerWrapper from '@/components/animation/FramerWrapper'
 import Heading from '@/components/Heading'
 import { Badge } from '@/components/ui/badge'
-import { getCredlyBadges } from '@/api-services/credly/get-credly-badges'
 
 const formatDate = (date: string) => {
   const formatter = new Intl.DateTimeFormat('en', {

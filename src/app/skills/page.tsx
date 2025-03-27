@@ -1,10 +1,10 @@
 import { LightbulbIcon } from 'lucide-react'
+import { getWakatimeSkills } from '@/api-services/wakatime/get-wakatime-skills'
 import FramerWrapper from '@/components/animation/FramerWrapper'
 import Heading from '@/components/Heading'
 import SkillsFooter from '@/components/SkillsFotter'
 import { Badge } from '@/components/ui/badge'
 import { portfolioConfig } from '@/config/portfolio.config'
-import { getWakatimeSkills } from '@/api-services/wakatime/get-wakatime-skills'
 
 export default async function SkillsPage() {
   const wakaSkills = await getWakatimeSkills()
