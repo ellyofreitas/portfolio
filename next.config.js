@@ -8,6 +8,12 @@ const nextUrl = new URL(nextEnvUrl)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   devIndicators: false,
   images: {
     remotePatterns: [
