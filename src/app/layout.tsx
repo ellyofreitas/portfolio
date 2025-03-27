@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     url: portfolioConfig.seo.url,
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: [`${portfolioConfig.seo.url}/og-imagejpg`],
     siteName: portfolioConfig.name,
   },
   twitter: {
     card: 'summary_large_image',
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: [`${portfolioConfig.seo.url}/og-imagejpg`],
     creator: portfolioConfig.socialLinks.x,
   },
   icons: {

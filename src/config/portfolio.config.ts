@@ -15,7 +15,7 @@ export const portfolioConfig = {
     github: `https://github.com/${environment.GITHUB_USERNAME}`,
   },
   seo: {
-    ogImage: `${environment.NEXT_PUBLIC_SITE_URL}/og-image.png`,
+    ogImage: `${environment.NEXT_PUBLIC_SITE_URL}/og-image.jpg`,
     url: environment.NEXT_PUBLIC_SITE_URL,
     keywords: [
       'ellyo',
