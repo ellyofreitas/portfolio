@@ -1,65 +1,70 @@
-import { cn } from "@/lib/utils";
 import {
-  Facebook,
-  Linkedin,
-  Twitter,
-  ExternalLink,
-  Github,
-} from "lucide-react";
-import { buttonVariants } from "./ui/button";
-import Link from "next/link";
-import FramerWrapper from "./animation/FramerWrapper";
-import { portfolioConfig } from "@/config/portfolio.config";
+  SiCredly,
+  SiGithub,
+  SiUpwork,
+  SiWakatime,
+  SiX,
+} from '@icons-pack/react-simple-icons'
+import { Linkedin } from 'lucide-react'
+import Link from 'next/link'
+import { portfolioConfig } from '@/config/portfolio.config'
+import { cn } from '@/lib/utils'
+import FramerWrapper from './animation/FramerWrapper'
+import { buttonVariants } from './ui/button'
 
 const SocialLinks = () => {
   const links = [
     {
-      name: "Facebook",
-      link: portfolioConfig.socialLinks.facebook,
-      icon: <Facebook />,
+      name: 'Upwork',
+      link: portfolioConfig.socialLinks.upwork,
+      icon: <SiUpwork />,
     },
     {
-      name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
-      icon: <Twitter />,
+      name: 'X',
+      link: portfolioConfig.socialLinks.x,
+      icon: <SiX />,
     },
     {
-      name: "Linkedin",
+      name: 'Linkedin',
       link: portfolioConfig.socialLinks.linkedin,
       icon: <Linkedin />,
     },
     {
-      name: "External",
-      link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
+      name: 'Github',
+      link: portfolioConfig.socialLinks.github,
+      icon: <SiGithub />,
     },
     {
-      name: "Github",
-      link: portfolioConfig.socialLinks.github,
-      icon: <Github />,
+      name: 'Credly',
+      link: portfolioConfig.socialLinks.credly,
+      icon: <SiCredly />,
     },
-  ];
+    {
+      name: 'Wakatime',
+      link: portfolioConfig.socialLinks.wakatime,
+      icon: <SiWakatime />,
+    },
+  ].filter((link) => link.link)
   return (
     <>
-      {links.map((itm, indx) => {
-        const timing = 0.55 + indx * 0.125;
-
+      {links.map((link, indx) => {
+        const timing = 0.55 + indx * 0.125
         return (
-          <FramerWrapper key={indx} delay={timing} y={50}>
+          <FramerWrapper key={link.name} delay={timing} y={50}>
             <Link
-              target="blank"
-              href={itm.link}
+              target='blank'
+              href={link.link}
               className={cn(
-                buttonVariants({ variant: "outline", size: "icon" })
+                buttonVariants({ variant: 'outline', size: 'icon' })
               )}
             >
-              {itm.icon}
+              {link.icon}
             </Link>
           </FramerWrapper>
-        );
+        )
       })}
     </>
-  );
-};
+  )
+}
 
-export default SocialLinks;
+export default SocialLinks
