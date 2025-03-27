@@ -4,6 +4,7 @@
     "ignoreUnknown": true,
     "includes": [
       "src/**",
+      "next.config.js",
       "!**/node_modules",
       "!**/.next",
       "!**/src/components/ui",
