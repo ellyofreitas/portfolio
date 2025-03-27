@@ -1,18 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental:{
-        serverComponentsExternalPackages: [
-            '@react-email/render',
-        ],
-        // images:{
-        //     remotePatterns:[
-        //         {
-        //             protocol: 'https',
-        //             hostname: 'cdn.jsdelivr.net',
-        //         }
-        //     ]
-        // }
-    }
+  devIndicators: false,
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'images.credly.com',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig
