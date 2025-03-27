@@ -4,12 +4,7 @@ import Link from 'next/link'
 import FramerWrapper from '@/components/animation/FramerWrapper'
 import Heading from '@/components/Heading'
 import { Badge } from '@/components/ui/badge'
-import { fetchApi } from '@/utils/fetch-api'
-
-const getCredlyBadges = async () => {
-  const data = await fetchApi('/api/credly/badges')
-  return data.badges
-}
+import { getCredlyBadges } from '@/api-services/credly/get-credly-badges'
 
 const formatDate = (date: string) => {
   const formatter = new Intl.DateTimeFormat('en', {

@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import type React from 'react'
-import { fetchApi } from '@/utils/fetch-api'
 
 interface MyComponentProps {
   items: Array<{ name: string; icon: string }>

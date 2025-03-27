@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 export const environment = z
   .object({
-    NEXT_PUBLIC_SITE_URL: z.string(),
+    NEXT_PUBLIC_SITE_URL: z.string().default('http://localhost:3000'),
     WAKATIME_USER_ID: z.string(),
     WAKATIME_USERNAME: z.string(),
     GITHUB_USERNAME: z.string(),

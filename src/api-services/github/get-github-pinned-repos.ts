@@ -12,7 +12,7 @@ const fetchRepo = async (repo: string) => {
   return await response.json()
 }
 
-export async function GET() {
+export async function getGithubPinnedRepos() {
   const response = await fetch(`https://github.com/${username}`, {
     cache: 'force-cache',
   })
@@ -45,5 +45,5 @@ export async function GET() {
       { concurrency: 2 }
     )
     .toArray()
-  return Response.json({ repos })
+  return repos
 }

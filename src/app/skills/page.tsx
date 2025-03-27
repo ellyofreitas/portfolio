@@ -4,12 +4,7 @@ import Heading from '@/components/Heading'
 import SkillsFooter from '@/components/SkillsFotter'
 import { Badge } from '@/components/ui/badge'
 import { portfolioConfig } from '@/config/portfolio.config'
-import { fetchApi } from '@/utils/fetch-api'
-
-const getWakatimeSkills = async () => {
-  const data = await fetchApi('/api/wakatime/stats')
-  return data.skills
-}
+import { getWakatimeSkills } from '@/api-services/wakatime/get-wakatime-skills'
 
 export default async function SkillsPage() {
   const wakaSkills = await getWakatimeSkills()

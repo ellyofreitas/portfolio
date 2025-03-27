@@ -3,7 +3,7 @@ import { portfolioConfig } from '@/config/portfolio.config'
 const { WAKATIME_USER_ID: wakatimeUserId } = process.env
 const normalize = (text: string) => text.replace(/\W/, '').toLowerCase()
 
-export async function GET() {
+export async function getWakatimeSkills() {
   const response = await fetch(
     `https://wakatime.com/api/v1/users/${wakatimeUserId}/stats/all_time`,
     { cache: 'force-cache' }
@@ -24,5 +24,5 @@ export async function GET() {
   const skills = wakaTools.filter((lang: any) =>
     tools.has(normalize(lang.name.toLowerCase()))
   )
-  return Response.json({ skills })
+  return skills
 }

@@ -1,8 +1,6 @@
 const { CREDLY_USERNAME: credlyUsername } = process.env
 
-export const dynamic = 'force-static'
-
-export async function GET() {
+export async function getCredlyBadges() {
   const response = await fetch(
     `https://www.credly.com/users/${credlyUsername}/badges?sort=rank`,
     {
@@ -12,5 +10,5 @@ export async function GET() {
   )
   const data = await response.json()
   const badges = data.data
-  return Response.json({ badges })
+  return badges
 }
