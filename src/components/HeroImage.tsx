@@ -1,16 +1,18 @@
 import Image from 'next/image'
-import logo from '../../public/1b75ba16-58c9-4a1d-af7e-72c11c858cee_Original.JPG'
+import { environment } from '@/config/environment'
 
 const HeroImage = () => {
+  const logoSrc = new URL('hero-image.jpg', environment.NEXT_PUBLIC_SITE_URL)
   return (
     <>
       <Image
-        src={logo}
+        src={logoSrc.href}
         alt='logo'
         loading='eager'
         priority
         height={1000}
         width={1000}
+        className='drop-shadow-2xl shadow-gray-800/50 rounded-lg'
       />
     </>
   )

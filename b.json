@@ -1,0 +1,561 @@
+{
+  "data": [
+    {
+      "id": "46be4e35-def8-42c1-95a9-faf842090d58",
+      "expires_at_date": "2025-12-27",
+      "issued_at_date": "2022-12-27",
+      "issued_to": "Ellyo Freitas",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2022-12-28T06:49:29.311-06:00",
+      "expires_at": "2025-12-26T18:00:00.000-06:00",
+      "issued_at": "2022-12-26T18:00:00.000-06:00",
+      "last_updated_at": "2022-12-28T06:49:29.311-06:00",
+      "updated_at": "2022-12-28T06:49:29.311-06:00",
+      "earner_path": "/users/ellyo-freitas",
+      "earner_photo_url": null,
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "printable": false,
+      "issuer": {
+        "summary": "issued by Amazon Web Services Training and Certification",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+              "name": "Amazon Web Services Training and Certification",
+              "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+              "vanity_url": "https://www.credly.com/org/amazon-web-services",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": true,
+              "twitter_url": "https://twitter.com/awscloud",
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "54225396-3c1a-44b6-ba14-9fe2f812842b",
+        "description": "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
+        "global_activity_url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "job_board_url": null,
+        "name": "AWS Certified Solutions Architect – Associate",
+        "public": true,
+        "recipient_type": "User",
+        "vanity_slug": "aws-certified-solutions-architect-associate",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "settings_enable_related_badges": true,
+        "translatable": false,
+        "level": "Intermediate",
+        "time_to_earn": null,
+        "cost": null,
+        "type_category": "Certification",
+        "image": {
+          "id": "0e284c3f-5164-4b21-8660-0d84737941bc",
+          "url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+        },
+        "image_url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-associate",
+        "owner_vanity_slug": "amazon-web-services",
+        "badge_template_earnable": false,
+        "recommendable": true,
+        "issuer": {
+          "summary": "issued by Amazon Web Services Training and Certification",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+                "name": "Amazon Web Services Training and Certification",
+                "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+                "vanity_url": "https://www.credly.com/org/amazon-web-services",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": true,
+                "twitter_url": "https://twitter.com/awscloud",
+                "verified": false
+              }
+            }
+          ]
+        },
+        "related_badge_templates": [
+          {
+            "id": "6b1c7b5a-d668-48a5-9dfd-e5de1c432c31",
+            "name": "AWS Certified Solutions Architect – Professional",
+            "image": {
+              "id": "2d84e428-9078-49b6-a804-13c15383d0de",
+              "url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
+            },
+            "image_url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
+            "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-professional"
+          },
+          {
+            "id": "6069fb52-0c27-42d7-852b-6aa86ea45e81",
+            "name": "AWS Certified Cloud Practitioner",
+            "image": {
+              "id": "00634f82-b07f-4bbd-a6bb-53de397fc3a6",
+              "url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            },
+            "image_url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+            "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner"
+          },
+          {
+            "id": "814f73aa-6ad7-4dea-8895-121134113997",
+            "name": "AWS Certified SysOps Administrator – Associate",
+            "image": {
+              "id": "f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1",
+              "url": "https://images.credly.com/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png"
+            },
+            "image_url": "https://images.credly.com/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
+            "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-sysops-administrator-associate"
+          }
+        ],
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "e1d83b85-adce-4c50-acc6-13701b0fc0df",
+            "activity_type": "Assessment",
+            "required_badge_template_id": null,
+            "title": "Successfully passed the AWS Certified Solutions Architect – Associate exam.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "87f75c05-6cff-4044-b641-f871a1ea345a",
+            "name": "Amazon Web Services",
+            "vanity_slug": "amazon-web-services"
+          },
+          {
+            "id": "d787423d-a2c2-4515-953d-52a42e946fd9",
+            "name": "Cloud Infrastructure",
+            "vanity_slug": "cloud-infrastructure"
+          },
+          {
+            "id": "d914920b-ba3e-4220-9b51-957642f3104a",
+            "name": "AWS Certification",
+            "vanity_slug": "aws-certification"
+          },
+          {
+            "id": "c42a5758-3258-4516-9188-5b019ddd1241",
+            "name": "Cloud Certification",
+            "vanity_slug": "cloud-certification"
+          },
+          {
+            "id": "918edc32-0894-4957-a91f-d96300b8b8d3",
+            "name": "AWS Cloud",
+            "vanity_slug": "aws-cloud"
+          },
+          {
+            "id": "abfd0cf0-7586-4cb8-9f23-0398da99a4cb",
+            "name": "Cloud Architecture",
+            "vanity_slug": "cloud-architecture"
+          },
+          {
+            "id": "37229bc7-1a4e-478d-b834-17402ba02862",
+            "name": "Cloud Data",
+            "vanity_slug": "cloud-data"
+          },
+          {
+            "id": "f056df54-cafe-4713-bdc5-d4ac6734d76c",
+            "name": "Cloud Services",
+            "vanity_slug": "cloud-services"
+          },
+          {
+            "id": "682d4927-14e7-490c-96d3-c8f3ef0995de",
+            "name": "AWS",
+            "vanity_slug": "aws"
+          }
+        ]
+      },
+      "image": {
+        "id": "0e284c3f-5164-4b21-8660-0d84737941bc",
+        "url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+      },
+      "image_url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "0d1f5c90-ae17-4f66-af8c-19edf0662534",
+      "expires_at_date": null,
+      "issued_at_date": "2022-12-29",
+      "issued_to": "Francisco Ellyo de Freitas Silva",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2022-12-29T09:35:48.940-06:00",
+      "expires_at": null,
+      "issued_at": "2022-12-28T18:00:00.000-06:00",
+      "last_updated_at": "2022-12-29T09:35:48.940-06:00",
+      "updated_at": "2022-12-29T09:35:48.941-06:00",
+      "earner_path": "/users/ellyo-freitas",
+      "earner_photo_url": null,
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "printable": false,
+      "issuer": {
+        "summary": "issued by The Linux Foundation",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "f4b8d042-0072-4a1a-8d00-260b513026e8",
+              "name": "The Linux Foundation",
+              "url": "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8",
+              "vanity_url": "https://www.credly.com/org/the-linux-foundation",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": true,
+              "twitter_url": "https://twitter.com/linuxfoundation",
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "c9bfb1a3-db82-40e5-abcb-db69b66b296d",
+        "description": "Earners of the LFW212: Node.js Services Development understand how to create web servers and leverage ecosystem frameworks for rapid composability. They know how HTTP works at a Node core API level, what the essential RESTful practices are, and what is needed to implement RESTful services. They also possess skills needed for server and service composition.",
+        "global_activity_url": "https://training.linuxfoundation.org/training/node-js-services-development-lfw212/",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "job_board_url": null,
+        "name": "LFW212: Node.js Services Development",
+        "public": true,
+        "recipient_type": "User",
+        "vanity_slug": "lfw212-node-js-services-development",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": false,
+        "settings_enable_related_badges": true,
+        "translatable": false,
+        "level": "Intermediate",
+        "time_to_earn": "Weeks",
+        "cost": "Paid",
+        "type_category": "Learning",
+        "image": {
+          "id": "bf0dc665-f8ca-4250-8afd-5648285e7ebe",
+          "url": "https://images.credly.com/images/bf0dc665-f8ca-4250-8afd-5648285e7ebe/blob"
+        },
+        "image_url": "https://images.credly.com/images/bf0dc665-f8ca-4250-8afd-5648285e7ebe/blob",
+        "url": "https://www.credly.com/org/the-linux-foundation/badge/lfw212-node-js-services-development",
+        "owner_vanity_slug": "the-linux-foundation",
+        "badge_template_earnable": false,
+        "recommendable": true,
+        "issuer": {
+          "summary": "issued by The Linux Foundation",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "f4b8d042-0072-4a1a-8d00-260b513026e8",
+                "name": "The Linux Foundation",
+                "url": "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8",
+                "vanity_url": "https://www.credly.com/org/the-linux-foundation",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": true,
+                "twitter_url": "https://twitter.com/linuxfoundation",
+                "verified": false
+              }
+            }
+          ]
+        },
+        "related_badge_templates": [
+          {
+            "id": "067f5afd-160d-42df-961e-31d19e117173",
+            "name": "CKAD: Certified Kubernetes Application Developer",
+            "image": {
+              "id": "cc8adc83-1dc6-4d57-8e20-22171247e052",
+              "url": "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            },
+            "image_url": "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+          },
+          {
+            "id": "2dbb052b-1bdf-4ef6-b56a-94dce9b8fe75",
+            "name": "JSNAD: OpenJS Node.js Application Developer",
+            "image": {
+              "id": "8ee45313-716a-4142-a9da-30adaaea0c12",
+              "url": "https://images.credly.com/images/8ee45313-716a-4142-a9da-30adaaea0c12/Training_Badges_Master_Node-AppDev.png"
+            },
+            "image_url": "https://images.credly.com/images/8ee45313-716a-4142-a9da-30adaaea0c12/Training_Badges_Master_Node-AppDev.png",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/jsnad-openjs-node-js-application-developer"
+          },
+          {
+            "id": "051cab93-512d-4f84-87bd-c12709a99ae7",
+            "name": "CHFD: Certified Hyperledger Fabric Developer",
+            "image": {
+              "id": "887d12d5-38cb-4b3b-a338-8045a4e2e46a",
+              "url": "https://images.credly.com/images/887d12d5-38cb-4b3b-a338-8045a4e2e46a/chfd_logo.png"
+            },
+            "image_url": "https://images.credly.com/images/887d12d5-38cb-4b3b-a338-8045a4e2e46a/chfd_logo.png",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/chfd-certified-hyperledger-fabric-developer"
+          }
+        ],
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "186897a2-222b-4f9c-b31d-d6ae7ab919b3",
+            "activity_type": "Course",
+            "required_badge_template_id": null,
+            "title": "Must complete eLearning course.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "02816b33-d5b6-4122-a2ab-b313e55a07d2",
+            "name": "Web Platform Security",
+            "vanity_slug": "web-platform-security"
+          },
+          {
+            "id": "952aa0e9-755c-48e9-91bd-17474b1314d6",
+            "name": "RESTful Services",
+            "vanity_slug": "restful-services"
+          },
+          {
+            "id": "1a00731b-0e60-4217-9eb1-6219d2bf001f",
+            "name": "Node.js",
+            "vanity_slug": "node-js"
+          },
+          {
+            "id": "a3670afa-7175-4514-9a1f-70bd9a810d5b",
+            "name": "Fastify",
+            "vanity_slug": "fastify"
+          },
+          {
+            "id": "5b833682-a82f-4e9d-885e-4f4aaf18d7f9",
+            "name": "Express",
+            "vanity_slug": "express"
+          },
+          {
+            "id": "625a3b5a-dd98-4342-b778-8741f763ec34",
+            "name": "Data Management",
+            "vanity_slug": "data-management"
+          },
+          {
+            "id": "8c66364d-6c51-402b-b046-b595a68c4f53",
+            "name": "Backend Attack Mitigation",
+            "vanity_slug": "backend-attack-mitigation"
+          }
+        ]
+      },
+      "image": {
+        "id": "bf0dc665-f8ca-4250-8afd-5648285e7ebe",
+        "url": "https://images.credly.com/images/bf0dc665-f8ca-4250-8afd-5648285e7ebe/blob"
+      },
+      "image_url": "https://images.credly.com/images/bf0dc665-f8ca-4250-8afd-5648285e7ebe/blob",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "295e9963-386e-4d75-9c8f-b04097888d1b",
+      "expires_at_date": "2027-02-02",
+      "issued_at_date": "2024-02-02",
+      "issued_to": "Francisco Ellyo de Freitas Silva",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2024-02-02T17:05:50.282-06:00",
+      "expires_at": "2027-02-01T18:00:00.000-06:00",
+      "issued_at": "2024-02-01T18:00:00.000-06:00",
+      "last_updated_at": "2024-02-02T17:05:50.299-06:00",
+      "updated_at": "2024-02-02T17:05:50.404-06:00",
+      "earner_path": "/users/ellyo-freitas",
+      "earner_photo_url": null,
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "printable": false,
+      "issuer": {
+        "summary": "issued by The Linux Foundation",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "f4b8d042-0072-4a1a-8d00-260b513026e8",
+              "name": "The Linux Foundation",
+              "url": "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8",
+              "vanity_url": "https://www.credly.com/org/the-linux-foundation",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": true,
+              "twitter_url": "https://twitter.com/linuxfoundation",
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "cc673aed-70e8-416e-a573-2746ca1d41c8",
+        "description": "Earners of this designation demonstrated the skills and expertise to competently create RESTful Node.js Servers and Services (or Microservices) with a particular emphasis on security practices.",
+        "global_activity_url": "https://training.linuxfoundation.org/certification/jsnsd/",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "job_board_url": null,
+        "name": "JSNSD: OpenJS Node.js Services Developer",
+        "public": true,
+        "recipient_type": "User",
+        "vanity_slug": "jsnsd-openjs-node-js-services-developer",
+        "show_badge_lmi": false,
+        "show_skill_tag_links": false,
+        "settings_enable_related_badges": true,
+        "translatable": false,
+        "level": "Intermediate",
+        "time_to_earn": "Months",
+        "cost": "Paid",
+        "type_category": "Certification",
+        "image": {
+          "id": "3c44b901-a2bd-41e7-8a10-24cba9ddd85d",
+          "url": "https://images.credly.com/images/3c44b901-a2bd-41e7-8a10-24cba9ddd85d/Training_Badges_Master_Node-ServDev.png"
+        },
+        "image_url": "https://images.credly.com/images/3c44b901-a2bd-41e7-8a10-24cba9ddd85d/Training_Badges_Master_Node-ServDev.png",
+        "url": "https://www.credly.com/org/the-linux-foundation/badge/jsnsd-openjs-node-js-services-developer",
+        "owner_vanity_slug": "the-linux-foundation",
+        "badge_template_earnable": false,
+        "recommendable": true,
+        "issuer": {
+          "summary": "issued by The Linux Foundation",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "f4b8d042-0072-4a1a-8d00-260b513026e8",
+                "name": "The Linux Foundation",
+                "url": "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8",
+                "vanity_url": "https://www.credly.com/org/the-linux-foundation",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": true,
+                "twitter_url": "https://twitter.com/linuxfoundation",
+                "verified": false
+              }
+            }
+          ]
+        },
+        "related_badge_templates": [
+          {
+            "id": "2dbb052b-1bdf-4ef6-b56a-94dce9b8fe75",
+            "name": "JSNAD: OpenJS Node.js Application Developer",
+            "image": {
+              "id": "8ee45313-716a-4142-a9da-30adaaea0c12",
+              "url": "https://images.credly.com/images/8ee45313-716a-4142-a9da-30adaaea0c12/Training_Badges_Master_Node-AppDev.png"
+            },
+            "image_url": "https://images.credly.com/images/8ee45313-716a-4142-a9da-30adaaea0c12/Training_Badges_Master_Node-AppDev.png",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/jsnad-openjs-node-js-application-developer"
+          },
+          {
+            "id": "067f5afd-160d-42df-961e-31d19e117173",
+            "name": "CKAD: Certified Kubernetes Application Developer",
+            "image": {
+              "id": "cc8adc83-1dc6-4d57-8e20-22171247e052",
+              "url": "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            },
+            "image_url": "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+          },
+          {
+            "id": "051cab93-512d-4f84-87bd-c12709a99ae7",
+            "name": "CHFD: Certified Hyperledger Fabric Developer",
+            "image": {
+              "id": "887d12d5-38cb-4b3b-a338-8045a4e2e46a",
+              "url": "https://images.credly.com/images/887d12d5-38cb-4b3b-a338-8045a4e2e46a/chfd_logo.png"
+            },
+            "image_url": "https://images.credly.com/images/887d12d5-38cb-4b3b-a338-8045a4e2e46a/chfd_logo.png",
+            "url": "https://www.credly.com/org/the-linux-foundation/badge/chfd-certified-hyperledger-fabric-developer"
+          }
+        ],
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "10158313-fdd8-4cb9-b78e-4e8ae50ef7b3",
+            "activity_type": "Assessment",
+            "required_badge_template_id": null,
+            "title": "Score a passing grade on a 2-hour online, proctored, performance-based test that requires implementing multiple solutions within a Remote Desktop Linux environment.",
+            "url": "https://training.linuxfoundation.org/certification/jsnsd/#domains"
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "c440ec44-d93d-4b59-80fa-3497f2d02adb",
+            "name": "OpenJS Foundation",
+            "vanity_slug": "openjs-foundation"
+          },
+          {
+            "id": "49580fc7-c3cf-4cb8-b22d-884851a49621",
+            "name": "HTTP Services",
+            "vanity_slug": "http-services"
+          },
+          {
+            "id": "5f3ea9ae-42d5-40b4-a533-039865ebc12b",
+            "name": "RESTful HTTP Services",
+            "vanity_slug": "restful-http-services"
+          },
+          {
+            "id": "a35fe273-8258-4f28-8b5f-824ae7373e68",
+            "name": "Security",
+            "vanity_slug": "security"
+          },
+          {
+            "id": "c3db0b5d-95d9-4155-8081-de895db1b3b2",
+            "name": "Servers And Services",
+            "vanity_slug": "servers-and-services"
+          },
+          {
+            "id": "fd9b079a-b963-4d76-a182-8705040835a0",
+            "name": "Visual Studio Code",
+            "vanity_slug": "visual-studio-code"
+          },
+          {
+            "id": "1a00731b-0e60-4217-9eb1-6219d2bf001f",
+            "name": "Node.js",
+            "vanity_slug": "node-js"
+          }
+        ]
+      },
+      "image": {
+        "id": "3c44b901-a2bd-41e7-8a10-24cba9ddd85d",
+        "url": "https://images.credly.com/images/3c44b901-a2bd-41e7-8a10-24cba9ddd85d/Training_Badges_Master_Node-ServDev.png"
+      },
+      "image_url": "https://images.credly.com/images/3c44b901-a2bd-41e7-8a10-24cba9ddd85d/Training_Badges_Master_Node-ServDev.png",
+      "evidence": [
+        {
+          "id": "8b68fc68-5637-4803-9ea9-c34a6828939c",
+          "type": "PlainTextEvidence",
+          "title": "Certificate ID Number",
+          "description": "LF-073h2vfvpy"
+        }
+      ],
+      "recommendations": []
+    }
+  ],
+  "metadata": {
+    "count": 3,
+    "current_page": 1,
+    "total_count": 3,
+    "total_pages": 1,
+    "per": 48,
+    "previous_page_url": null,
+    "next_page_url": null
+  }
+}
